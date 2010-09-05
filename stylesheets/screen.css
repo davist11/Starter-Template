@@ -1,0 +1,81 @@
+/* @group reset */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td 
+{ border: 0; font-family: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; }
+a img, frameset { border: 0; }
+table { border-collapse: collapse; border-spacing: 0; }
+caption, th, td { font-weight: normal; text-align: left; }
+blockquote:before, blockquote:after, q:before, q:after { content: ""; }
+blockquote, q { quotes: "" ""; }
+/* @end */
+
+/* @group utility */
+.clearing { clear: both; }
+.contain:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.lte7 .contain { height: 1%; }
+.screen-reader { display: block; left: -9999px; position: absolute; top: -9999px; }
+.hide { display: none; }
+.left { float: left; }
+.right { float: right; }
+/* @end */
+
+/* @group basic elements */
+body {
+  font: 12px/20px Helvetica, Arial, sans-serif;
+}
+h1 {
+  
+}
+h2 {
+  
+}
+h3 {
+  
+}
+h4 {
+  
+}
+h5 {
+  
+}
+h6 {
+  
+}
+p,
+ul,
+ol,
+dl,
+table {
+  margin-bottom: 20px;
+}
+a {
+  
+}
+a:hover {
+  
+}
+/* @end */
+
+/* @group forms */
+label {
+  cursor: pointer;
+}
+input,
+select,
+textarea {
+  font: inherit;
+}
+button {
+  overflow: visible;
+  width: auto;
+}
+/* @end */
+
+/* @group basic structure */
+
+/* @end */
