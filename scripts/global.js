@@ -1,4 +1,4 @@
-var SITE = window.SITE || {};
+var SITE = SITE || {};
 
 SITE.init = function() {
   //Code starts here
