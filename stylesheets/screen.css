@@ -62,7 +62,8 @@ a:hover {
 /* @end */
 
 /* @group forms */
-label {
+label,
+button {
   cursor: pointer;
 }
 input,
