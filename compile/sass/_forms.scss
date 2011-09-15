@@ -1,0 +1,15 @@
+label,
+button {
+	cursor: pointer;
+}
+input,
+select,
+textarea,
+button {
+	font: inherit;
+	margin: 0;
+}
+button {
+	overflow: visible;
+	width: auto;
+}

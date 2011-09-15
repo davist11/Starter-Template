@@ -1,7 +1,7 @@
 var SITE = SITE || {};
 
 SITE.init = function() {
-	//Code starts here
+	console.log('hello')
 };
 
 $(document).ready(SITE.init);

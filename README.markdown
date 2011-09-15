@@ -1,1 +1,1 @@
-Superbasic HTML5 starting template
+Super-basic starting template
