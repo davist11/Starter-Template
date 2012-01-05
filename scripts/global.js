@@ -1,4 +1,4 @@
-var SITE = SITE || {};
+window.SITE || (SITE = {});
 
 SITE.init = function() {
 	console.log('hello')
