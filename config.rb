@@ -6,6 +6,7 @@ css_dir = "stylesheets/"
 sass_dir = "compile/sass"
 images_dir = "images/structure/"
 javascripts_dir = "scripts"
+fonts_id = "fonts/"
 
 # settings
 output_style = :compressed
