@@ -7,11 +7,11 @@ GEM
       fssm (>= 0.2.7)
       sass (~> 3.1)
     fssm (0.2.9)
-    sass (3.2.0.alpha.104)
+    sass (3.2.0.alpha.261)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   compass
-  sass (= 3.2.0.alpha.104)
+  sass (~> 3.2.0.alpha)
