@@ -2,9 +2,11 @@
 .clearing {
 	clear: both;
 }
+
 .container {
 	overflow: hidden;
 }
+
 .contain:after {
 	clear: both;
 	content: ".";
@@ -12,25 +14,31 @@
 	height: 0;
 	visibility: hidden;
 }
+
 .lte7 .contain {
 	height: 1%;
 }
+
 .screen-reader {
 	display: block !important;
 	left: -9999px !important;
 	position: absolute !important;
 }
+
 .alt {
 	display: block;
 	overflow: hidden;
 	text-indent: -9999px;
 }
+
 .hide {
 	display: none;
 }
+
 .left {
 	float: left !important; 
 }
+
 .right {
 	float: right !important;
 }

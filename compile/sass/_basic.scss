@@ -1,44 +1,49 @@
-/* @group compass spriting */
+// Spriting
 /*$common-spacing: 20px;
 $transparent-spacing: 20px;
 @import "common/*.png";
 @import "transparent/*.png";*/
-/* @end */
 
-/* @group colors */
+// Colors
 
-/* @end */
 
-/* @group default vars */
+// Default variables
 $default-border-radius: 3px;
 $default-transition-property: all;
 $default-transition-duration: 0.25s;
 $default-transition-function: ease-in-out;
 $default-transition-delay: false;
-/* @end */
-
-/* @group functions */
-@import "compass/css3";
-/* @end */
 
 /* @group basic elements */
+* {
+	@include box-sizing(border-box);
+}
+
 body {
 	background: #fff;
-	font: 12px/20px Helvetica, Arial, sans-serif;
+	font: 12px/1.5 Helvetica, Arial, sans-serif;
 }
+
 strong {
 	font-weight: bold;
 }
+
 em {
 	font-style: italic;
 }
-.lte7 img {
-	-ms-interpolation-mode: bicubic;
+
+img {
+	display: block;
+	
+	.lte7 & {
+		-ms-interpolation-mode: bicubic;
+	}
 }
+
 a {
 	
-}
-a:hover {
-	
+	&:hover {
+		
+	}
 }
 /* @end */
