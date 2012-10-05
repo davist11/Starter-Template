@@ -14,6 +14,10 @@ $default-transition-duration: 0.25s;
 $default-transition-function: ease-in-out;
 $default-transition-delay: false;
 
+//Responsive sizes
+$small: 'max-width: 640px';
+$medium: 'max-width: 800px';
+
 /* @group basic elements */
 * {
 	@include box-sizing(border-box);
@@ -22,6 +26,7 @@ $default-transition-delay: false;
 body {
 	background: #fff;
 	font: 12px/1.5 Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
 }
 
 strong {

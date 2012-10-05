@@ -1,12 +1,18 @@
-@mixin font-face( $name, $filename, $svg_id, $style:normal, $weight:normal ) {
+@mixin font-face($name, $filename, $svg_id, $style:normal, $weight:normal) {
 	@font-face {
 		font-family: "#{$name}";
 		font-style: $style;
 		font-weight: $weight;
-		src: font-url( "#{$filename}.eot" );
-		src: font-url( "#{$filename}.eot?#iefix" ) format( "embedded-opentype" ),
-			 font-url( "#{$filename}.woff" ) format( "woff" ),
-			 font-url( "#{$filename}.ttf" ) format( "truetype" ),
-			 font-url( "#{$filename}.svg##{$svg_id}" ) format( "svg" );
+		src: font-url("#{$filename}.eot");
+		src: font-url("#{$filename}.eot?#iefix") format("embedded-opentype"),
+			 font-url("#{$filename}.woff") format("woff"),
+			 font-url("#{$filename}.ttf") format("truetype"),
+			 font-url("#{$filename}.svg##{$svg_id}") format("svg");
+	}
+}
+
+@mixin respond-to($query) {
+	@media only screen and ($query)  {
+		@content
 	}
 }
