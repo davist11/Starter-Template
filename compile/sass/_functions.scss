@@ -12,7 +12,7 @@
 }
 
 @mixin respond-to($query) {
-	@media only screen and ($query)  {
+	@media only screen and #{$query}  {
 		@content
 	}
 }
