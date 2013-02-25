@@ -19,36 +19,37 @@ $small: '(max-width: 640px)';
 $medium: '(max-width: 800px)';
 
 /* @group basic elements */
-* {
-	@include box-sizing(border-box);
-}
-
-body {
-	background: #fff;
-	font: 12px/1.5 Helvetica, Arial, sans-serif;
-	-webkit-font-smoothing: antialiased;
-}
-
-strong {
-	font-weight: bold;
-}
-
-em {
-	font-style: italic;
-}
-
-img {
-	display: block;
-	
-	.lte7 & {
-		-ms-interpolation-mode: bicubic;
+	* {
+		@include box-sizing(border-box);
 	}
-}
 
-a {
-	
-	&:hover {
+	body {
+		background: #fff;
+		font: 12px/1.5 Helvetica, Arial, sans-serif;
+		-webkit-font-smoothing: antialiased;
+	}
+
+	strong {
+		font-weight: bold;
+	}
+
+	em {
+		font-style: italic;
+	}
+
+	img {
+		display: block;
+		max-width: 100%;
 		
+		.lte7 & {
+			-ms-interpolation-mode: bicubic;
+		}
 	}
-}
+
+	a {
+		
+		&:hover {
+			
+		}
+	}
 /* @end */

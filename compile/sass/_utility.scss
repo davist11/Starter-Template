@@ -1,45 +1,45 @@
 /* @group utility */
-.clearing {
-	clear: both;
-}
+	.clearing {
+		clear: both;
+	}
 
-.container {
-	overflow: hidden;
-}
+	.container {
+		overflow: hidden;
+	}
 
-.contain:after {
-	clear: both;
-	content: ".";
-	display: block;
-	height: 0;
-	visibility: hidden;
-}
+	.contain:after {
+		clear: both;
+		content: ".";
+		display: block;
+		height: 0;
+		visibility: hidden;
+	}
 
-.lte7 .contain {
-	height: 1%;
-}
+	.lte7 .contain {
+		height: 1%;
+	}
 
-.screen-reader {
-	display: block !important;
-	left: -9999px !important;
-	position: absolute !important;
-}
+	.screen-reader {
+		display: block !important;
+		left: -9999px !important;
+		position: absolute !important;
+	}
 
-.alt {
-	display: block;
-	overflow: hidden;
-	text-indent: -9999px;
-}
+	.alt {
+		display: block;
+		overflow: hidden;
+		text-indent: -9999px;
+	}
 
-.hide {
-	display: none;
-}
+	.hide {
+		display: none;
+	}
 
-.left {
-	float: left !important; 
-}
+	.left {
+		float: left;
+	}
 
-.right {
-	float: right !important;
-}
+	.right {
+		float: right;
+	}
 /* @end */
