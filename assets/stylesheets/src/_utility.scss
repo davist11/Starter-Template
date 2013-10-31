@@ -31,7 +31,8 @@
 		text-indent: -9999px;
 	}
 
-	.hide {
+	.hide,
+	.js .js-hide {
 		display: none;
 	}
 
@@ -41,5 +42,17 @@
 
 	.right {
 		float: right;
+	}
+
+	.no-float {
+		float: none;
+	}
+
+	.block {
+		display: block;
+	}
+
+	.centered {
+		text-align: center;
 	}
 /* @end */

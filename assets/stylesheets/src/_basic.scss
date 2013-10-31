@@ -1,0 +1,32 @@
+*,
+*:before,
+*:after {
+	@include box-sizing(border-box);
+}
+
+body {
+	background: #fff;
+	font: 12px/1.5 Helvetica, Arial, sans-serif;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+a {
+
+	&:hover {
+
+	}
+}

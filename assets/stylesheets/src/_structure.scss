@@ -1,0 +1,25 @@
+/* @group header */
+	#header {
+		background: blue;
+
+		@include breakpoint($breakpoint-medium-width) {
+			background: red;
+		}
+	}
+/* @end */
+
+/* @group content */
+	#content {
+		background: green;
+
+		@include breakpoint($breakpoint-medium-width) {
+			background: purple;
+		}
+	}
+/* @end */
+
+/* @group footer */
+	#footer {
+
+	}
+/* @end */

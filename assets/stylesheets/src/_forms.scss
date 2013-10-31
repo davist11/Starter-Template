@@ -8,10 +8,12 @@ select,
 textarea,
 button {
 	font: inherit;
+	-webkit-font-smoothing: antialiased;
 	margin: 0;
 }
 
 button {
+	border: none;
 	overflow: visible;
 	width: auto;
 }

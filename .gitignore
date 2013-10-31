@@ -1,6 +1,7 @@
 # Project Files #
 ######################
 .sass-cache
+node_modules
 
 # Compiled source #
 ###################
@@ -10,12 +11,12 @@
 *.exe
 *.o
 *.so
-  
+
 # Logs and databases #
 ######################
 *.log
 *.sqlite
-  
+
 # OS generated files #
 ######################
 .DS_Store

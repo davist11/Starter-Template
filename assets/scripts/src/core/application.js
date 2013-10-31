@@ -4,9 +4,9 @@ window.SITE || (SITE = {});
 	'use strict';
 
 	SITE.init = function() {
-		console.log('hello')
+		console.log('hello');
 	};
-	
+
 })(jQuery, window, document);
 
 $(document).ready(SITE.init);

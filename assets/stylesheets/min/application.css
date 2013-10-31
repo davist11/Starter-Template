@@ -1,0 +1,206 @@
+/* line 9, ../src/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+/* line 17, ../src/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 20, ../src/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 24, ../src/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 28, ../src/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+@include font-face(Open Sans, open-sans-regular, OpenSansRegular);
+@include font-face(Open Sans, open-sans-bold, OpenSansBold, normal, bold);
+
+%font-base {
+        font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+*/
+/* line 3, ../src/_basic.scss */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 7, ../src/_basic.scss */
+body {
+  background: #fff;
+  font: 12px/1.5 Helvetica, Arial, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 14, ../src/_basic.scss */
+strong {
+  font-weight: bold;
+}
+
+/* line 18, ../src/_basic.scss */
+em {
+  font-style: italic;
+}
+
+/* line 22, ../src/_basic.scss */
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* @group utility */
+/* line 2, ../src/_utility.scss */
+.clearing {
+  clear: both;
+}
+
+/* line 6, ../src/_utility.scss */
+.container {
+  overflow: hidden;
+}
+
+/* line 10, ../src/_utility.scss */
+.contain:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+/* line 18, ../src/_utility.scss */
+.lte7 .contain {
+  height: 1%;
+}
+
+/* line 22, ../src/_utility.scss */
+.screen-reader {
+  display: block !important;
+  left: -9999px !important;
+  position: absolute !important;
+}
+
+/* line 28, ../src/_utility.scss */
+.alt {
+  display: block;
+  overflow: hidden;
+  text-indent: -9999px;
+}
+
+/* line 35, ../src/_utility.scss */
+.hide,
+.js .js-hide {
+  display: none;
+}
+
+/* line 39, ../src/_utility.scss */
+.left {
+  float: left;
+}
+
+/* line 43, ../src/_utility.scss */
+.right {
+  float: right;
+}
+
+/* line 47, ../src/_utility.scss */
+.no-float {
+  float: none;
+}
+
+/* line 51, ../src/_utility.scss */
+.block {
+  display: block;
+}
+
+/* line 55, ../src/_utility.scss */
+.centered {
+  text-align: center;
+}
+
+/* @end */
+/* @group header */
+/* line 2, ../src/_structure.scss */
+#header {
+  background: blue;
+}
+@media (min-width: 800px) {
+  /* line 2, ../src/_structure.scss */
+  #header {
+    background: red;
+  }
+}
+
+/* @end */
+/* @group content */
+/* line 12, ../src/_structure.scss */
+#content {
+  background: green;
+}
+@media (min-width: 800px) {
+  /* line 12, ../src/_structure.scss */
+  #content {
+    background: purple;
+  }
+}
+
+/* @end */
+/* @group footer */
+/* @end */
+/* line 2, ../src/_forms.scss */
+label,
+button {
+  cursor: pointer;
+}
+
+/* line 9, ../src/_forms.scss */
+input,
+select,
+textarea,
+button {
+  font: inherit;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+}
+
+/* line 15, ../src/_forms.scss */
+button {
+  border: none;
+  overflow: visible;
+  width: auto;
+}
+
+/* No files to import found in patterns/* */
+/* No files to import found in pages/* */
