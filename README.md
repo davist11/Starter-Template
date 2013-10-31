@@ -5,3 +5,4 @@
 - ```gem install bundler```
 - ```bundle install```
 - ```npm install```
+- ```mkdir assets/images; mkdir assets/images/structure; mkdir assets/fonts;```
